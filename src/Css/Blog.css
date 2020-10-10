@@ -1,0 +1,46 @@
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+.Blog div {
+    overflow: hidden;
+}
+
+.box {
+    border: 2px black solid;
+    display: relative;
+}
+
+.imagebox {
+    width: 26%;
+    float: right;
+}
+
+.imagebox2 {
+    width: 46%;
+    float: right;
+}
+
+.textbox {
+    width: 43%;
+    float: left;
+    text-align: center;
+    align-items: center;
+}
+
+.textbox2 {
+    width: 45%;
+    float: left;
+    text-align: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .imagebox,
+    .textbox {
+        width: 50%;
+        height: 260px;
+        float: left;
+    }
+}
